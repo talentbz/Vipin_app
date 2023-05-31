@@ -1,0 +1,48 @@
+{
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/drawer": "^5.12.5",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "axios": "^0.21.1",
+    "expo": "^46.0.21",
+    "expo-barcode-scanner": "^12.3.2",
+    "expo-image-picker": "^14.1.1",
+    "expo-location": "^15.1.1",
+    "expo-splash-screen": "~0.10.2",
+    "expo-status-bar": "~1.0.4",
+    "expo-updates": "^0.16.4",
+    "formik": "^2.2.6",
+    "native-base": "^3.4.28",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native": "^0.69.6",
+    "react-native-barcode-mask": "^1.2.4",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-reanimated": "^2.17.0",
+    "react-native-root-toast": "^3.4.1",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.0.0",
+    "react-native-svg": "^12.5.1",
+    "react-native-svg-transformer": "^1.0.0",
+    "react-native-unimodules": "^0.14.10",
+    "react-native-web": "^0.19.4",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true,
+  "name": "react-native-qr",
+  "version": "1.0.0"
+}
